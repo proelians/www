@@ -522,7 +522,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ffde9e;
+  background: ##ee0e03;
   margin: 4px 10px;
 }
 
@@ -610,7 +610,7 @@ section {
 }
 
 .clients .owl-dot.active {
-  background-color: #ee4f03 !important;
+  background-color: #ee0e03 !important;
 }
 
 /*--------------------------------------------------------------
@@ -1037,7 +1037,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #ee4f03 !important;
+  background-color: #ee0e03 !important;
 }
 
 @media (min-width: 1024px) {
@@ -1368,7 +1368,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #ee4f03 !important;
+  background-color: #ee0e03 !important;
 }
 
 .portfolio-details .portfolio-info {
