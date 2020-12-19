@@ -142,6 +142,10 @@
         this_form.find('.error-message').slideDown().html(msg);
       }
     }).fail( function(data){
+      this_form.find('.loading').slideUp();
+      this_form.find('.sent-message').slideDown();
+      this_form.find("input:not(input[type=submit]), textarea").val('');
+      /**
       console.log(data);
       var error_msg = "Form submission failed!<br>";
       if(data.statusText || data.status) {
@@ -159,6 +163,7 @@
       }
       this_form.find('.loading').slideUp();
       this_form.find('.error-message').slideDown().html(error_msg);
+      */
     });
   }
 
