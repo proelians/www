@@ -39,17 +39,17 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top ">
+  <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html"><span></span></a></h1>
+      <!-- <h1 class="logo"><a href="index.html">Pro<span>elians</span></a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid">
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="index.html#about">About</a></li>
           <li><a href="#services">Services</a></li>
           <!--<li><a href="#portfolio">Blog</a></li>-->
           <!--<li><a href="#team">Team</a></li>-->
@@ -79,78 +79,43 @@
 
     </div>
   </header><!-- End Header -->
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center justify-content-center">
-    <div class="container" data-aos="fade-up">
-
-      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-        <div class="col-xl-6 col-lg-8">
-          <!--<h1><span>Pro</span>elians</h1>
-          <h2>Proactive Cyber Security</h2>-->
-	  <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Purple Team Assessment</h2>
+          <ol>
+            <li><a href="index.html">Home</a></li>
+			<li><a href="#services">Services</a></li>
+            <li>Purple Team Assessment</li>
+          </ol>
         </div>
+
       </div>
+    </section><!-- End Breadcrumbs -->
 
-      <div class="row mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-        <div class="col-xl-2 col-md-4 col-6">
-          <div class="icon-box">
-            <i class="ri-store-line"></i>
-            <h3><a href="red-team-page.html">Red Team</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4 col-6 ">
-          <div class="icon-box">
-            <i class="ri-bar-chart-box-line"></i>
-            <h3><a href="purple-team-page.html">Purple Team</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-md-0">
-          <div class="icon-box">
-            <i class="ri-calendar-todo-line"></i>
-            <h3><a href="assumed-breach-page.html">Assumed Breach</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
-          <div class="icon-box">
-            <i class="ri-paint-brush-line"></i>
-            <h3><a href="social-engineering-page.html">Social Engineering</a></h3>
-          </div>
-        </div>
-        <div class="col-xl-2 col-md-4 col-6 mt-4 mt-xl-0">
-          <div class="icon-box">
-            <i class="ri-database-2-line"></i>
-            <h3><a href="">Security Training</a></h3>
-          </div>
-        </div>		
-      </div>
-    </div>
-  </section><!-- End Hero -->
-
-  <main id="main">
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+    <section id="purple-team-page" class="about" style="padding:20px">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/computer-g7.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
-            <h3>We are not just another cyber security company</h3>
-            <br>
-	    <p>
-              Our mission is to offer real word attack simulation services which will assess your organization's readiness against modern cybers ecurity threats.
+            <h3>Why a Purple Team assessment ?</h3>
+            <p>
+              The main benefits of conducting a purple team assessment are:
             </p>
             <ul>
-              <li><i class="ri-check-double-line"></i> We discover uncovential security vulnerabilties.</li>
-              <li><i class="ri-check-double-line"></i> We proactively work with your Blue Team.</li>
-              <li><i class="ri-check-double-line"></i> We help you improving your detection and response capabilities.</li>
+              <li><i class="ri-check-double-line"></i> Test your Blue Team to detect common tactics, techniques, and procedures (TTPs) in a controlled and methodical way.</li>
+              <li><i class="ri-check-double-line"></i> Tune and refine your alerting mechanisms to minimise false positives.</li>
+              <li><i class="ri-check-double-line"></i> Understand whether the current level of security controls are sufficient to contain the attacks carried out by an internal malicious actor.</li>
             </ul>
             <p>
-              <i>Our commitment is to provide top-quality services that meet your expectations.</i>
- 
+              <i>Purple Team assessments are designed to test your internal infrastructure resilience against controlled and realistic cyber attacks.</i>. 
             </p>
           </div>
         </div>
@@ -181,33 +146,42 @@
       <div class="container" data-aos="fade-up">
 
         <div class="row">
-          <div class="image col-lg-6" style='background-image: url("assets/img/features.jpg");' data-aos="fade-right"></div>
+          <div class="image col-lg-6" style='background-image: url("assets/img/hacking-g7.jpg");' data-aos="fade-right"></div>
           <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
             <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-             <i class="bx bx-command"></i>
-              <h4>Flexible</h4>
-              <p>We make sure that we meet your expectations.</p>
+			  <h3>Purple Team methodology</h3><br>
+              <i class="bx bx-book"></i>
+              <h4>Scoping</h4>
+			  <p>Proelians will define with you common TTPs.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-conversation"></i>
-              <h4>Proactive</h4>
-              <p>We assess your security from a different prespective.</p>
+              <i class="bx bx-play-circle"></i>
+              <h4>Execution</h4>
+              <p>Proelians will execute agreed TTPs and provide feedback to your Blue Team.</p>
             </div>
             <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-shield-quarter"></i>
-              <h4>Secure</h4>
-              <p>We perform due diligence to treat your data securely.</p>
-            </div>
-            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
-              <i class="bx bx-network-chart"></i>
-              <h4>Uncoventional</h4>
-              <p>We discover vulnerabilities that traditional penetration tests do not cover.</p>
+              <i class="bx bxs-report"></i>
+              <h4>Delivery</h4>
+              <p>The final report will contain an executive summary, technical and stratigic recommendations, and indicators of compromise (IoPs) mapped to the Att&amp;ck framework for Blue Team investigation.</p>
             </div>
           </div>
         </div>
-
+       </div>
       </div>
     </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>Would you like to find out more?</h3>
+          <p>Download our Purple Team assessment brochure and do not hesitate to <b><a href="#contact">contact us</a></b>.</p>
+          <a class="cta-btn" href="assets/pdf/Red_Team_Assessment_Brochure.pdf">Purple Team Assessment Brochure</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -238,7 +212,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Assumed Breach</a></h4>
+              <h4><a href="assumed-breach-page.html">Assumed Breach</a></h4>
               <p>Assess your ability to stop an attacker to fully compromise your internal network.</p>
             </div>
           </div>
@@ -246,7 +220,7 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Social Engineering</a></h4>
+              <h4><a href="social-engineering-page.html">Social Engineering</a></h4>
               <p>Test the susceptibility of your staff to social engineering attacks.</p>
             </div>
           </div>
@@ -271,19 +245,6 @@
 
       </div>
     </section><!-- End Services Section -->
-
-    <!-- ======= Cta Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="text-center">
-          <h3>Still not sure which service?</h3>
-          <p> Don't worry! Download our service comparison brochure and do not hesitate to <a href="#contact"><b>contact us</b></a>.</p>
-          <a class="cta-btn" href="#">Service Comparison Brochure</a>
-        </div>
-
-      </div>
-    </section><!-- End Cta Section -->
 
     <!-- ======= Blog Section ======= -->
     <!--
